@@ -1,0 +1,9 @@
+.main-text {
+    font-family: "Poppins";
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    border-bottom: 3px solid #fff;
+}
