@@ -1,0 +1,20 @@
+.news-header {
+    margin-top: -20px;
+    font-family: 'Poppins';
+    font-size: 70px;
+    color: #fff;
+    border-bottom: 3px solid #fff;    
+}
+.all-news {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-bottom: -150vh;
+    overflow-y: auto;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-items: center;
+}
