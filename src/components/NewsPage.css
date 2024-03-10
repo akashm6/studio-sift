@@ -1,0 +1,28 @@
+.news-header {
+  font-family: 'Poppins';
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+}
+
+.all-news {
+  display: flex;
+  position: absolute;
+  top: 220px;
+  left: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-items: center;
+  padding-top: 50px;
+}

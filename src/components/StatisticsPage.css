@@ -1,0 +1,12 @@
+.style-header {
+    font-family: 'Poppins';
+  font-size: 70px;
+  color: #fff;
+  text-align: center; 
+  margin-bottom: 20px; 
+  border-bottom: 3px solid #fff;
+  position: absolute;
+  left:0;
+  right:0;
+  top: 150px
+}
