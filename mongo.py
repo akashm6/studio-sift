@@ -52,17 +52,16 @@ def insert_games_for_studio(studio_name, games,logo, description, general_stores
         'stores': general_stores
     }
 
-    # Check if the studio already exists before inserting
+    # check for pre-existing studio
     existing_studio = check_for_studio(studio_name)
 
     if not existing_studio:
-        # Insert document
+        # insert doc
         inserted_id = collection.insert_one(inserted_doc).inserted_id
 
-        # Retrieve the inserted document
         inserted_doc = collection.find_one({'_id': inserted_id}, {'_id': 0})
 
-        # Use json_util for serialization
+        # json_util for serialization
         inserted_doc = parse_json(inserted_doc)
 
     return inserted_doc
