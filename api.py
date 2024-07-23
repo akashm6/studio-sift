@@ -17,7 +17,7 @@ names = []
 
 @app.route('/news', methods = ['GET'])
 def news():
-    response = requests.get('https://newsapi.org/v2/everything?language=en&q={game, studios}&apiKey=5a0114fc9a254f8783c3aa4ab861120e')
+    response = requests.get('https://newsapi.org/v2/everything?language=en&q={game, studios}&apiKey=XXX')
     data = response.json()
     authors,titles,descs,urls,urlToImages,publish_dates = [],[],[],[],[],[]
     all_news = {}
