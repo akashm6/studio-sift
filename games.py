@@ -7,7 +7,7 @@ def is_english(s):
     return bool(re.match(pattern, s))
 
 def get_games(dev_name):
-    game_url = f'https://api.rawg.io/api/games?developers={dev_name}&key=82803018efd943c897ffab0462fc136a'
+    game_url = f'https://api.rawg.io/api/games?developers={dev_name}&key=XXX'
     dev_games = []
     all_results = []
 
@@ -44,7 +44,7 @@ def get_games(dev_name):
     return dev_games
 
 def get_general_stores(dev_name):
-    stores_url = f'https://api.rawg.io/api/stores?developers={dev_name}&key=82803018efd943c897ffab0462fc136a'
+    stores_url = f'https://api.rawg.io/api/stores?developers={dev_name}&key=XXX'
     stores = []
     domains = []
     general_stores = []
