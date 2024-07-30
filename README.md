@@ -1,4 +1,4 @@
-# Studio Sift
+# Studio Sift <img src = 'https://art.pixilart.com/f1e65dd24607f2f.png' width = "50" height = "50" padding = "0px"></img>
 ## Currently still in progress! -> Full ReadME coming soon.
 ### What I'm currently working on:
   * Developing components for Statistics page and connecting Chart.js to API data
